@@ -5,11 +5,9 @@ import "../css/TechnicalSkills.css"; // Ensure the correct path
 import htmlIcon from "../images/html.png";
 import cssIcon from "../images/css.png";
 import jsIcon from "../images/javascript.png";
-//import tsIcon from "../images/typescript.png";
 import reactIcon from "../images/react.png";
 import nodeIcon from "../images/node.png";
 import flaskIcon from "../images/flask.png";
-//import mongodbIcon from "../images/mongodb.png";
 import pythonIcon from "../images/python.png";
 import apiIcon from "../images/api.png";
 import modalIcon from "../images/modal.png";
@@ -35,10 +33,7 @@ const TechnicalSkills = () => {
               <img src={jsIcon} alt="JavaScript" className="skill-icon" />{" "}
               JavaScript
             </div>
-            ///<div className="skill-item">
-              //<img src={tsIcon} alt="TypeScript" className="skill-icon" />{" "}
-              //TypeScript
-            //</div>
+            
             <div className="skill-item">
               <img src={reactIcon} alt="React" className="skill-icon" /> React
             </div>
@@ -54,10 +49,7 @@ const TechnicalSkills = () => {
               <img src={flaskIcon} alt="Flask" className="skill-icon" />{" "}
               Flask
             </div>
-            ///<div className="skill-item">
-              //<img src={mongodbIcon} alt="MongoDB" className="skill-icon" />{" "}
-              //MongoDB
-            //</div>
+            
             <div className="skill-item">
               <img src={pythonIcon} alt="Python" className="skill-icon" />{" "}
               Python
